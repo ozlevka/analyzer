@@ -11,8 +11,8 @@ app.on('ready', () => {
             }
         });
     mainWindow.setMenu(null);
-    mainWindow.loadURL(`file://${__dirname}/resources/index.html`);
-    mainWindow.openDevTools();
+    mainWindow.loadURL(`file://${__dirname}/resources/main.html`);
+    //mainWindow.openDevTools();
     //mainWindow.loadURL('http://facebook.com');
 });
 
